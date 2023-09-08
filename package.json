@@ -1,0 +1,16 @@
+{
+  "name": "pkg",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --cache --write '**/*.{js,md,mdx,ts,tsx,yml}'",
+    "format:diff": "prettier --cache --list-different '**/*.{js.md,mdx,ts,tsx,yml}'",
+    "test": ""
+  },
+  "author": "Josh Black <joshblack@github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "prettier": "^3.0.3"
+  }
+}
